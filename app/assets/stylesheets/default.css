@@ -59,3 +59,7 @@ form label {
   font-weight: bold;
   color: maroon;
 }
+image_tag{
+  height: 300px;
+  width: 300px;
+}

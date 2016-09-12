@@ -1,14 +1,5 @@
-%h1 Create New Movie
+%h1 Kalyani's Birthday 2013
+= link_to "click me :)", '/new1', :method => :get
+%p~ "\n"
+= fooimage "1424505028182", "large"
 
-= form_tag movies_path do
-
-  = label :movie, :title, 'Title'
-  = text_field :movie, 'title'
-
-  = label :movie, :rating, 'Rating'
-  = select :movie, :rating, ['G','PG','PG-13','R','NC-17']
-
-  = label :movie, :release_date, 'Released On'
-  = date_select :movie, :release_date
-
-  = submit_tag 'Save Changes'
